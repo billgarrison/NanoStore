@@ -76,7 +76,7 @@
 		74B63DFB129F25C400B3B2A7 /* NSFNanoResult_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DDC129F25C400B3B2A7 /* NSFNanoResult_Private.h */; };
 		74B63DFC129F25C400B3B2A7 /* NSFNanoSearch_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DDD129F25C400B3B2A7 /* NSFNanoSearch_Private.h */; };
 		74B63DFD129F25C400B3B2A7 /* NSFNanoStore_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DDE129F25C400B3B2A7 /* NSFNanoStore_Private.h */; };
-		74B63DFE129F25C400B3B2A7 /* NanoStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE0129F25C400B3B2A7 /* NanoStore.h */; };
+		74B63DFE129F25C400B3B2A7 /* NanoStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE0129F25C400B3B2A7 /* NanoStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74B63DFF129F25C400B3B2A7 /* NSFNanoBag.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE1129F25C400B3B2A7 /* NSFNanoBag.h */; };
 		74B63E00129F25C400B3B2A7 /* NSFNanoBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B63DE2129F25C400B3B2A7 /* NSFNanoBag.m */; };
 		74B63E01129F25C400B3B2A7 /* NSFNanoExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE3129F25C400B3B2A7 /* NSFNanoExpression.h */; };
@@ -85,7 +85,7 @@
 		74B63E04129F25C400B3B2A7 /* NSFNanoGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B63DE6129F25C400B3B2A7 /* NSFNanoGlobals.m */; };
 		74B63E05129F25C400B3B2A7 /* NSFNanoObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE7129F25C400B3B2A7 /* NSFNanoObject.h */; };
 		74B63E06129F25C400B3B2A7 /* NSFNanoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B63DE8129F25C400B3B2A7 /* NSFNanoObject.m */; };
-		74B63E07129F25C400B3B2A7 /* NSFNanoObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE9129F25C400B3B2A7 /* NSFNanoObjectProtocol.h */; };
+		74B63E07129F25C400B3B2A7 /* NSFNanoObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE9129F25C400B3B2A7 /* NSFNanoObjectProtocol.h */; settings = {ATTRIBUTES = (); }; };
 		74B63E08129F25C400B3B2A7 /* NSFNanoPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DEA129F25C400B3B2A7 /* NSFNanoPredicate.h */; };
 		74B63E09129F25C400B3B2A7 /* NSFNanoPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B63DEB129F25C400B3B2A7 /* NSFNanoPredicate.m */; };
 		74B63E0A129F25C400B3B2A7 /* NSFNanoSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DEC129F25C400B3B2A7 /* NSFNanoSearch.h */; };
@@ -139,6 +139,19 @@
 		74FA5DE5155795CC00217E09 /* fopenCompatibilityFix.c in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74FA5DE3155795CC00217E09 /* fopenCompatibilityFix.c */; };
 		74FA5DE6155795CC00217E09 /* fopenCompatibilityFix.c in Sources */ = {isa = PBXBuildFile; fileRef = 74FA5DE3155795CC00217E09 /* fopenCompatibilityFix.c */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		F251A73E172F250A00E808ED /* NanoStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE0129F25C400B3B2A7 /* NanoStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A73F172F260B00E808ED /* NSFNanoObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE9129F25C400B3B2A7 /* NSFNanoObjectProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A740172F262A00E808ED /* NSFNanoObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE7129F25C400B3B2A7 /* NSFNanoObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A741172F263400E808ED /* NSFNanoGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE5129F25C400B3B2A7 /* NSFNanoGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A742172F264000E808ED /* NSFNanoStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DEE129F25C400B3B2A7 /* NSFNanoStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A743172F264C00E808ED /* NSFNanoPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DEA129F25C400B3B2A7 /* NSFNanoPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A744172F266B00E808ED /* NSFNanoExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE3129F25C400B3B2A7 /* NSFNanoExpression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A745172F266E00E808ED /* NSFNanoBag.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DE1129F25C400B3B2A7 /* NSFNanoBag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A746172F267200E808ED /* NSFNanoSortDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A4EF10138E3EBD00FBC46C /* NSFNanoSortDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A747172F267600E808ED /* NSFNanoSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DEC129F25C400B3B2A7 /* NSFNanoSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A748172F268D00E808ED /* NSFNanoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DD2129F25C400B3B2A7 /* NSFNanoResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A749172F269600E808ED /* NSFNanoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B63DD0129F25C400B3B2A7 /* NSFNanoEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F251A74A172F269900E808ED /* NSFOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ACCBA8168FA05800585114 /* NSFOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -603,6 +616,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F251A73D172F24FF00E808ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F251A73E172F250A00E808ED /* NanoStore.h in Headers */,
+				F251A745172F266E00E808ED /* NSFNanoBag.h in Headers */,
+				F251A744172F266B00E808ED /* NSFNanoExpression.h in Headers */,
+				F251A73F172F260B00E808ED /* NSFNanoObjectProtocol.h in Headers */,
+				F251A740172F262A00E808ED /* NSFNanoObject.h in Headers */,
+				F251A741172F263400E808ED /* NSFNanoGlobals.h in Headers */,
+				F251A743172F264C00E808ED /* NSFNanoPredicate.h in Headers */,
+				F251A747172F267600E808ED /* NSFNanoSearch.h in Headers */,
+				F251A746172F267200E808ED /* NSFNanoSortDescriptor.h in Headers */,
+				F251A749172F269600E808ED /* NSFNanoEngine.h in Headers */,
+				F251A748172F268D00E808ED /* NSFNanoResult.h in Headers */,
+				F251A74A172F269900E808ED /* NSFOrderedDictionary.h in Headers */,
+				F251A742172F264000E808ED /* NSFNanoStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -612,6 +645,7 @@
 			buildPhases = (
 				748D344D139772B600FD5565 /* Sources */,
 				748D344E139772B600FD5565 /* Frameworks */,
+				F251A73D172F24FF00E808ED /* Headers */,
 			);
 			buildRules = (
 			);
@@ -968,7 +1002,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -990,7 +1023,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
